@@ -8,9 +8,10 @@ import { AppRoutingModule, routingComponents } from './app.routing';
 import { AccordionModule } from 'ng2-bootstrap/accordion';
 import { JobsAccordionComponent } from './jobs-accordion/jobs-accordion.component';
 import { ApplyFormComponent } from '../apply-form.component';
+import { ApplyFormComponent } from './apply-form/apply-form.component';
 
 @NgModule({
-  declarations: [ AppComponent, routingComponents, JobsAccordionComponent, ApplyFormComponent ],
+  declarations: [ AppComponent, routingComponents, JobsAccordionComponent, ApplyFormComponent, ApplyFormComponent ],
   imports:      [ BrowserModule, ReactiveFormsModule, HttpModule, AppRoutingModule, AccordionModule.forRoot() ],
   providers:    [],
   bootstrap:    [ AppComponent ]
