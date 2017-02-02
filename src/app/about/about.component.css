@@ -1,0 +1,13 @@
+.about-text p {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-weight: 300;
+  font-size: 1.1em;
+  color: #654;
+}
+
+.about-text li {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  color: #654;
+}

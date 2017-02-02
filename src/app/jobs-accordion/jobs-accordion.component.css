@@ -1,0 +1,45 @@
+.loading {
+    background: url(assets/loading.gif) no-repeat 50% fixed;
+    background-size: 100px 100px;
+}
+accordion-group div.heading-jobtitle {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 1.1em;
+  color: #54282F;
+}
+
+accordion-group div.heading-city {
+  text-align: right;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: .9em;
+  color: #654;
+}
+
+accordion-group div.jobid {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: .6em;
+  color: #666;
+}
+
+accordion-group div.jobdesc {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: .8em;
+  color: #444;
+  padding-top: 1rem;
+  border-top: 1px #999 solid;
+}
+
+accordion-group div.apply {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.card-block {
+  padding: 1.5rem;
+}
+
+div.panel-collapse.collapse.in.show {
+  background-color: #fff3f5;
+}

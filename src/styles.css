@@ -1,4 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+.full {
+    background: url(assets/pastel-bg.jpg) no-repeat 50% fixed;
+    background-size: cover
+}
+
+.back-button {
+  padding-bottom: 3rem;
+}
+
+.btn {
+    margin-bottom: 1rem
+}
+
+.btn-start {
+    background-color: #916a70;
+    color: #fff
+}
+
+.btn-submit {
+    background-color: #449d44;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 1rem 3rem;
+}
+
+.btn-back {
+    background-color: #a57e84;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 1rem 3rem;
+    letter-spacing: 0.25rem;
+}
+
+.btn-start:hover {
+    background-color: #a57e84;
+    color: #fff
+}
+
 .card {
-  margin-bottom: 3px;
+    border-bottom: 1px solid #999;
+    border-radius: 0
+}
+
+strong {
+    font-weight: 700
+}
+
+div.panel-collapse.collapse.in.show {
+    background-color: #fff3f5
 }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { ApplyFormComponent } from 'app/apply-form/apply-form.component';
 
 @Component({
   selector: 'app-apply',
@@ -16,7 +17,10 @@ export class ApplyComponent implements OnInit {
 
   ngOnInit() {
     this.route.params
-      .subscribe(params => {this.id = params['id']})
+      .subscribe(params => {
+        this.id = params['id'];
+      });
+    //this.name = 'Name of Job';
   }
 
 }
